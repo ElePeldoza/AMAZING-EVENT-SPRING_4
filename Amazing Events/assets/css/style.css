@@ -1,0 +1,124 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    min-height: 100vh;
+    background-color: black;
+}
+
+#nav-menu{
+    height: 82px;
+}
+#menu{
+   background-color: rgb(224,4,108);
+} 
+header{
+    height: 30vh;
+}
+h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    padding-top: 3rem;
+}
+svg{
+    color: white;
+    width: 6rem;
+    padding-top: 2rem;
+    
+}
+
+
+#search-button {
+    background-color: rgb(224,4,108);
+}
+.bi-search{
+    width: 30px !important;
+    
+}
+.card-title {
+    font-family:'Russo One', sans-serif ;
+}
+
+
+
+footer{
+    height: 10vh;
+}
+.socialmedia{
+    color: white;
+}
+h2{
+    font-family: 'Russo One', sans-serif;
+}
+
+#list-nav {
+    list-style: none;
+}
+.btn{
+    background-color: rgb(224,4,108);
+    color: white;
+    height: 50px;
+}
+.form-check{
+    margin-left: 30 px 
+}
+
+.card-img-top {
+   height: 11rem;
+  
+
+}
+
+svg #searchbutton {
+    height: 10px !important;
+
+}
+
+
+@media only screen and (min-width: 768px){
+
+}
+
+/*hasta aqui llega desktop - version compu*/
+
+/*responsive tablet*/
+@media only screen and (min-width:768px) and (max-width: 1024px){
+    #h1-upcomingevents{
+        font-size: 50px !important;
+      
+    }
+   
+  }
+
+
+
+/* --------------------------CELULAR------------------- */
+@media only screen and (min-width: 220px) and (max-width: 767px){
+    h1{
+        font-family: 'Russo One', sans-serif;
+        font-size: 50px;
+        padding-top: 3rem;
+    }
+    svg{
+        color: white;
+        width: 3rem;
+        padding-top: 2rem;
+    }
+    #h1-upcomingevents{
+        font-size: 30px !important;
+        width: 200px;
+        
+    }
+
+    #formContact{
+        width: 75hv !important;
+
+
+}
+}
